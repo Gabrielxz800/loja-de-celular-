@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- META TAG OG -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Dev Burguer - O melhor hamburuger dev!"/>
+    <meta property="og:image" content="https://projeto-cardapio-wine.vercel.app/assets/hamb-1.png"/>
+    <meta property="og:description" content="MELHOR LOJA DE CELULARES DA EUROPA " />
+    <meta property="og:site_name" content="SMART CELL " /> 
+
+  <link rel="stylesheet" href="./styles/output.css" />
+
+  <title>Smart Cell </title>
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+      <img 
+        src="https://s2-techtudo.glbimg.com/Er850Pt95q_MNooPdmMmxRd-QyA=/212x0:996x620/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/r/y/RhBXnQTWqJfiu2jPWV9g/iphone-se-3-report.jpg"
+        alt="Logo DevBurguer"
+        class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+      />
+      <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
+        Smart Cell 
+      </h1>
+
+      <span class="text-white font-medium">QR 320 conj 03 </span>
+
+      <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+        <span class="text-white font-medium">Seg á sab - 08:00 as 18:00</span>
+      </div>
+
+    </div>
+  </header>
+  <!-- FIM HEADER -->
+  
+  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    Conheça nossos produtos 
+  </h2>
+
+  <!-- INICIO MENU -->
+  <div id="menu">
+    
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="C:\Users\Windows10\Videos\81YSmKnlijL._AC_UF1000,1000_QL80_.jpg"
+          alt="Iphone 15 pro max "
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">HIphone 15 pro max  </p>
+          <p class="text-sm">é equipado com o processador Exynos 1330, que tem capacidade de 2.0GHz, 2.4GHz de processamento. O aparelho conta com memória RAM de 4.0GB.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 4.000</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Hiphone 15 pro max "
+              data-price="4.000"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="C:\Users\Windows10\Videos\download.jpg"
+          alt="Poco x3 Pro"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Poco x3 Pro </p>
+          <p class="text-sm">tá equipado com o super processador Qualcomm Snapdragon 860 que entrega alto desempenho independente do tipo de projeto.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 1.200</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Poco x3 Pro"
+              data-price="1,200"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="C:\Users\Windows10\Videos\1025679_celular-samsung-galaxy-pocket-2-duos-dual-chip-android-4-4-4gb-camera-2mp-radio-fm-3g-wi-fi-sm-g110-desbloqueado_m17_636656990092221248.jpg"
+          alt="Galaxy S20FE  "
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Galaxy S20FE </p>
+          <p class="text-sm">G110B PRETO, ANDROID 4.4, PRO 1GHZ, TELA 3.3,4GB,CÂM 2MP, 3G - SAMSUNG </p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 8.00</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Galaxy S20FE "
+              data-price="8,000"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->      
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="C:\Users\Windows10\Videos\download (1).jpg"
+          alt="REDMI K40  "
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">redmi k40
+          </p>
+          <p class="text-sm">Xiaomi Redmi K40 Gaming Edition Dual SIM 256 GB silver 12 GB RAM</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 4,000</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name=" redmi k40"
+              data-price="30"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->  
+</div>
+  <!-- FIM MENU -->
+
+  <!-- MODAL CART -->
+  <div 
+    class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+    id="cart-modal"
+  >
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+      <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+      <div id="cart-items" class="flex justify-between mb-2 flex-col max-h-[400px] overflow-auto"></div>
+
+      <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+      <p class="font-bold mt-4">Endereço de entrega:</p>
+      <input 
+        type="text"
+        placeholder="Digite seu endereço completo..."
+        id="address"
+        class="w-full border-2 p-1 rounded my-1"
+      />
+      <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+
+      <div class="flex items-center justify-between mt-5 w-full">
+        <button id="close-modal-btn">Fechar</button>
+        <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- FIM MODAL CART -->
+
+  <!-- BUTTON CART FOOTER -->
+  <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+    <button 
+      class="flex items-center gap-2 text-white font-bold"
+      id="cart-btn"
+    >
+      (<span id="cart-count">0</span>)
+      Veja meu carrinho
+      <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+  </footer>
+  <!-- FIM BUTTON CART FOOTER -->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
